@@ -5,7 +5,8 @@ FROM ubuntu
 RUN apt update
 
 # install python and flask
-RUN apt install python3 python-flask
+RUN apt install python3 python3-pip
+RUN pip3 install Flask
 
 # copy helloworld_httpserver.py
 RUN mkdir /server
@@ -15,4 +16,4 @@ COPY ./helloworld_httpserver.py /server
 RUN cd /server && flask --app helloworld_httpserver run
 
 # expose the server port
-EXPOSE 5050
+EXPOSE 80

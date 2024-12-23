@@ -7,4 +7,4 @@ def hello_world():
     return "Hello, World!"
 
 if __name__ == '__main__':
-    app.run(port=5050)
+    app.run(port=80)
