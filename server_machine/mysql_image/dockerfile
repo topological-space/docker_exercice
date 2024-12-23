@@ -1,0 +1,11 @@
+# install ubuntu
+FROM ubuntu
+
+# update repo
+RUN apt update
+
+# install mysql server
+RUN apt install mysql-server
+
+# expose the port
+EXPOSE 3306

@@ -1,0 +1,3 @@
+https://hub.docker.com/_/ubuntu
+https://ubuntu.com/server/docs/set-up-an-ftp-server
+https://ubuntu.com/server/docs/install-and-configure-a-mysql-server

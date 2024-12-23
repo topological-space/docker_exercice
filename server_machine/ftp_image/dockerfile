@@ -1,0 +1,17 @@
+# install ubuntu
+FROM ubuntu
+
+# update repo
+RUN apt update
+
+# install ftp server
+RUN apt install vsftpd
+
+# enable service
+RUN systemctl restart vsftpd.service
+
+# expose the port to the host machine
+EXPOSE 21
+
+# stop the container from exiting
+CMD ["bash"]
