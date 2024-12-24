@@ -14,4 +14,4 @@ RUN systemctl restart vsftpd.service
 EXPOSE 21
 
 # stop the container from exiting
-CMD ["bash"]
+#CMD ["bash"]

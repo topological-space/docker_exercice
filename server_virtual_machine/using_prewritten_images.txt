@@ -1,0 +1,3 @@
+https://hub.docker.com/r/delfer/alpine-ftp-server
+https://hub.docker.com/r/strm/helloworld-http/
+https://hub.docker.com/r/mysql/mysql-server/

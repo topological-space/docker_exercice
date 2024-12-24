@@ -1,0 +1,1 @@
+every script assumes it would be ran inside its parent directory

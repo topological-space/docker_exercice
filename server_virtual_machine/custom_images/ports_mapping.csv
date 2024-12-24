@@ -1,0 +1,4 @@
+component, 	container port, vm port
+mysql,		3306,		3306
+http,		80,		80
+ftp,		21,		21

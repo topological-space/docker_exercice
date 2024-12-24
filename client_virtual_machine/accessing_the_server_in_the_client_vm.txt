@@ -1,0 +1,1 @@
+The host's IP address in the VM is usually 10.0.2.2 in the default QEMU NAT setup.

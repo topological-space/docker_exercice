@@ -1,4 +1,0 @@
-:omponent, 	container port, host port
-mysql,		3306,		3306
-http,		80,		8
-ftp,		21,		21
